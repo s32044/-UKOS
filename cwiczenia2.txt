@@ -1,0 +1,24 @@
+1. ssh s32044@szuflandia.pjwstk.edu.pl
+2. cd PJATK/ZAO/SEM1/UKOS
+3. vi f_auto_1.txt następnie w edytorze klawisz "i" do edycji tekstu, :w zapisuje
+:q zamyka
+4. nano f_kolory_2.txt następnie wpisujemy tekst ctrl+O zapisuje, ctrl+x zamyka
+5. pico f_miasta_3.txt
+6. cat f_auto_1.txt f_kolory_2.txt f_miasta_3.txt
+7. cat f_auto_1.txt f_kolory_2.txt f_miasta_3.txt >> f_zbiory.txt
+8. cat -n f_auto_1.txt f_kolory_2.txt f_miasta_3.txt >> f_zbiory.txt
+9. less f_zbiory.txt ; head f_zbiory.txt ; tail f_zbiory.txt
+10. head -6 f_zbiory.txt
+11. head -n -6 f_zbiory.txt
+12. tail -6 f_zbiory.txt
+13. less f_zbiory.txt nastepnie /2
+14. grep 2 f_zbiory.txt
+15. grep -n 2 f_zbiory.txt
+16. wc -l f_zbiory.txt
+17. wc -w f_zbiory.txt
+18. wc -m f_zbiory.txt
+19. sort f_auto_1.txt
+20. sort -r f_auto_1.txt
+21. sort -k 1 f_zbiory.txt
+22. sort -k 1 -g f_zbiory.txt
+23. sort -k 2 f_zbiory.txt
